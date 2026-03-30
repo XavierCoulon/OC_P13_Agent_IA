@@ -24,7 +24,7 @@ services:
   mongodb:
     image: mongo:7
     container_name: chess-mongodb
-    command: ["--quiet", "--logLevel", "1"]
+    command: ["mongod", "--quiet", "--logLevel", "0"]
     ports:
       - "${MONGO_PORT:-27017}:27017"
     volumes:
