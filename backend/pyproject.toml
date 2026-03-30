@@ -1,0 +1,10 @@
+[project]
+name = "chess-agent-api"
+version = "0.1.0"
+description = "POC Agent IA Ouvertures Échecs - FFE"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115",
+    "python-dotenv>=1.0",
+]
