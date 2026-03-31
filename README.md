@@ -47,14 +47,30 @@ make dev      Lancer l'API en mode développement local (hot reload)
 | Route | Description |
 |---|---|
 | `GET /api/v1/healthcheck` | Santé de l'API |
+| `GET /api/v1/moves/{fen}` | Coups théoriques (base masters Lichess) |
+| `GET /api/v1/evaluate/{fen}` | Évaluation Stockfish (centipawns + meilleur coup) |
 | `GET /docs` | Swagger UI |
+
+> Le paramètre `{fen}` accepte les slashes (`{fen:path}`) — encodage URL non obligatoire.
+
+## Variables d'environnement
+
+| Variable | Description |
+|---|---|
+| `LICHESS_API_TOKEN` | Token Lichess (créer sur lichess.org/account/oauth/token, aucun scope requis) |
+| `YOUTUBE_API_KEY` | Clé API YouTube (étape suivante) |
+| `OPENAI_API_KEY` | Clé API LLM (étape suivante) |
 
 ## Structure
 
 ```
 .
-├── backend/        # FastAPI + LangGraph
-├── frontend/       # Angular
+├── backend/
+│   └── app/
+│       ├── api/v1/       # Routers FastAPI
+│       ├── models/       # Modèles Pydantic
+│       └── services/     # Lichess, Stockfish
+├── frontend/             # Angular (à venir)
 ├── docker-compose.yml
 ├── Makefile
 └── .env.example
