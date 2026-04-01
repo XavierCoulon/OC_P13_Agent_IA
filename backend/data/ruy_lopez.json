@@ -1,0 +1,17 @@
+{
+  "opening_name": "Ruy Lopez",
+  "chunks": [
+    {
+      "index": 0,
+      "text": "The Ruy Lopez is a very popular chess opening for white in the grandmaster level. The opening ECO ranges from C60 to C99. This opening comes from King's Pawn Opening (1. e4) --> Open Game (opening) (1. ...e5) --> King's Knight Opening (2. Nf3) --> 2. ...Nc6 defending the attacked pawn and 3. Bb5, attacking the defender of the pawn."
+    },
+    {
+      "index": 1,
+      "text": "The Ruy Lopez is one of the most popular openings used in grandmasters' games. The inventor of the \"Spanish Party\" is considered to be Ruy Lopez (in foreign literature, this debut is named in his honor \"Ruy Lopez's debut\", Spanish. Ruy López), however, the first mention of this debut is found in the manual of the Spanish chess player of the XV—XVI centuries Luis Ramirez de Lucena. The debut is characterized by the complexity and variety of schemes. Numerous analyses are devoted to him. V. Steinitz, K. Yanish, M. Chigorin, F. Marshall, Z. Tarrasch, A. Alekhine, M. Euwe, P. Keres, V. played an i"
+    },
+    {
+      "index": 2,
+      "text": "# Nf6, the Berlin Defense. After that move, the recommended one for white is\n#O-0\n# After castling, players do a big mistake as a black - taking the e4 pawn. Nxe4\n#Re1 - the move for winning the position there. It forces the knight to come back. For example, back to f6. Ne4-f6\n#After that, take the e5 with the knight on f3. Nxe5\n#Black's common response is to take the knight. Nxe5\n# White should push pawn on d file to attack the pinned black knight and win it. d4, after that white has a winning position with tempo and winrate of 100% (according to Lichess base)."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "opening_name": "Sicilian Defense",
+  "chunks": [
+    {
+      "index": 0,
+      "text": "The Sicilian Defense is the most common response to 1. e4, the King's Pawn Opening. It is characterised by the moves: It comprises ECO codes B20-B99. Most of the time, White will play 2. Nf3 or 2. Nc3, although people might play openings such as the Alapin Sicilian or Smith-Morra Gambit to get people out of theory."
+    },
+    {
+      "index": 1,
+      "text": "2. Nf3 is the most common response to the Sicilian Defense and White usually goes for an Open Sicilan with Nf3 and d4. The most common responses to 2. Nf3 are 2... d6, 2... Nc6 and 2... e6.\n2... d6\nThis is Black's most common response to 2. Nf3. It prepares for ... Nf6 which attacks the e-pawn without letting White just push to e5."
+    },
+    {
+      "index": 2,
+      "text": "These are the most common moves in the Sicilian after 2... d6. After this point, there are four major openings: the Najdorf (5...a6), Dragon (5...g6), Classical (5...Nc6), and Scheveningen (5...e6). ====Najdorf Variation, 5...a6====\nThe Sicilian Najdorf is one of the most deeply studied openings in chess. 5...a6 allows the move e5, whch takes the centre. The reason Black doesn't play e5, is because of an annoying check with 6. Bb5+!."
+    },
+    {
+      "index": 3,
+      "text": "Currently, White's most popular weapon against the Najdorf is 6.Be3. This is called the English Attack, because it was popularized by English grandmasters Murray Chandler, John Nunn and Nigel Short in the 1980s. White's idea is to play f3, Qd2, 0-0-0 and g4 in some order. Black can respond with 6...e6, 6...e5 or 6...Ng4. A related attacking idea for White is 6.Be3 e6 7.g4, known as the Hungarian Attack or Perenyi Attack."
+    },
+    {
+      "index": 4,
+      "text": "The most popular response from Black after 6.Be3 is 6...e5, seizing quick initiative by threatening the d4-knight. From here, the white knight has two sensible retreats: a) 7.Nb3, the more popular approach, is met with 7...Be6, and Black develops normally (...Be7, ...Nbd7, ...Rc8, ...Qc7, ...0-0, ...b5). b) 7.Nf3 is less common as it delays the possibility of a kingside pawn storm, via f4 and f3 (supporting the advance of g4). Black meets 7.Nf3 with 7...Be7 8.Bc4 0-0 9.0-0 Be6 10.Bb3 Qc7, where he has achieved a comfortable position."
+    },
+    {
+      "index": 5,
+      "text": "Formerly, 6.Bg5 e6 7.f4 was the main line of the Najdorf, when White threatens to attack the pinned knight with 8.e5. Black can simply break the pin with 7...Be7, when White usually plays 8.Qf3 and 9.0-0-0. Some of Black's alternatives are 7...Qb6, the Poisoned Pawn Variation popularized by Fischer, Gelfand's 7...Nbd7, and 7...b5, the Polugaevsky Variation, which has the tactical point 8.e5 dxe5 9.fxe5 Qc7! 10.exf6 Qe5+ winning the bishop in return for the knight. A modern alternative to 6...e6 is 6...Nbd7."
+    },
+    {
+      "index": 6,
+      "text": "White has other choices on the sixth move. 6.Be2 prepares to castle kingside and is a quieter alternative compared to 6.Be3 and 6.Bg5. Efim Geller was an early proponent of this move, after which Black can stay in \"pure\" Najdorf territory with 6...e5 or transpose to the Scheveningen with 6...e6. Other possibilities for White include 6.Bc4 (the Fischer–Sozin Attack), 6.f4, 6.f3, 6.g3, and 6.h3 (the Adams Attack, named after Weaver Adams), which was used several times by Bobby Fischer."
+    },
+    {
+      "index": 7,
+      "text": "====Dragon Variation, 5...g6====\nIn the Dragon Variation, Black fianchettoes a bishop on the h8–a1 diagonal. It was named by Fyodor Dus-Chotimirsky in 1901, who noticed a resemblance between Black's kingside pawn structure (pawns on d6, e7, f7, g6 and h7) and the stars of the Draco constellation. White's most dangerous try against the Dragon is the Yugoslav Attack, characterised by 6.Be3 Bg7 7.f3 0-0 8.Qd2 Nc6, when 9.0-0-0, 9.Bc4 and 9.g4 are White's most common moves. This variation leads to extremely sharp play and is ferociously complicated, since the players castle on opposite wings and t"
+    },
+    {
+      "index": 8,
+      "text": "====Classical Variation, 5...Nc6====\nWhite's most common reply is 6.Bg5, the Richter–Rauzer Attack (ECO codes B60–B69). The move 6.Bg5 was Kurt Richter's invention, threatening to double Black's pawns after Bxf6 and forestalling the Dragon by rendering 6...g6 unplayable. After 6...e6, Vsevolod Rauzer introduced the modern plan of Qd2 and 0-0-0 in the 1930s. White's pressure on the d6-pawn often compels Black to respond to Bxf6 with ...gxf6, rather than recapturing with a piece (e.g. the queen on d8) that also has to defend the d-pawn. This weakens Black's kingside pawn structure, but in return"
+    },
+    {
+      "index": 9,
+      "text": "Another variation is 6.Bc4, the Sozin Variation (ECO code B57). It brings the bishop to an aggressive square. Black usually plays 6...e6 (ECO B88 transposed) to limit the range of White's bishop, but White can eventually put pressure on the e6-pawn by pushing the f-pawn to f5 (pawn-based attack beginning with f4). White can either castle kingside with 7.Bb3 a6 8.0-0 (the Fischer–Sozin Attack, named after Bobby Fischer and Russian master Veniamin Sozin, who originated it in the 1930s), or queenside with 7.Be3 Be7 (or 7...a6) 8.Qe2 and 9.0-0-0 (the Velimirović Attack). Instead of 6...e6, Black c"
+    },
+    {
+      "index": 10,
+      "text": "White's third most common move is 6.Be2, (ECO codes B58–B59), after which Black can remain in independent variations with the Boleslavsky Variation 6...e5, named after Isaac Boleslavsky. The old main line 7.Nb3 is now less popular than the modern 7.Nf3, after which the game usually continues 7...h6 8.0-0 Be7 9.Re1 0-0 10.h3. Black can also transpose to the Scheveningen Variation with 6...e6; or to the Classical Variation of the Dragon with 6...g6. Other responses by White to the Classical include 6.Be3, 6.f3, and 6.g3"
+    },
+    {
+      "index": 11,
+      "text": "====Scheveningen Variation, 5...e6====\nIn the Scheveningen Variation, Black is content to place the e-pawn on e6, where it guards the d5-square, rather than play the space-gaining ...e5. Moving the e-pawn also prepares ...Be7 followed by kingside castling. In view of this, Paul Keres introduced 6.g4, the Keres Attack, in 1943. White intends to drive away the black knight with g5. If Black prevents this with 6...h6, which is the most common answer, White has gained kingside space and discouraged Black from castling on that side, and may later play Bg2. If the complications after 6.g4 are not to"
+    },
+    {
+      "index": 12,
+      "text": "While theory indicates that Black can hold the balance in the Keres Attack, players today often prefer to avoid it by playing 5...a6 first, an idea popularized by Kasparov. However, if determined to play the g4 thrust, White can prepare it by responding to 5...a6 with 6.h3 or 6.Rg1"
+    },
+    {
+      "index": 13,
+      "text": "After 1.e4 c5 2.Nf3 d6, White's most important alternative to 3.d4 is 3.Bb5+, known as the Moscow Variation or Canal–Sokolsky Attack. Grandmasters sometimes choose this variation when they wish to avoid theory; for instance, it was played by Garry Kasparov in the online game Kasparov–The World. Experts in this line include GMs Sergei Rublevsky and Tomáš Oral. Former World Champion Magnus Carlsen has also played this variation extensively. Black can block the check with 3...Bd7, 3...Nc6 or 3...Nd7. The position after 3...Nc6 can also be reached via the Rossolimo Variation after 1.e4 c5 2.Nf3 Nc"
+    },
+    {
+      "index": 14,
+      "text": "After 3.d4 cxd4 4.Nxd4, Black's most common move is 4...Nf6. Other important moves are 4...e6 (transposing to the Taimanov Variation), 4...g6 (the Accelerated Dragon) and 4...e5 (the Kalashnikov Variation). Less common choices include 4...Qc7, which may later transpose to the Taimanov Variation, 4...Qb6, the Grivas Variation, and 4...d6.\nAfter 4...Nf6, White usually replies 5.Nc3. Black can play 5...d6, transposing to the Classical Variation; 5...e5, the Sveshnikov Variation; or 5...e6, transposing to the Four Knights Variation."
+    },
+    {
+      "index": 15,
+      "text": "ECO Code B20 contains all irregular variations. Specifically, it includes every response from white apart from:\n*Main Line, 2. Nf3 (B27-99)\n*Closed Sicilian, 2. Nc3 (B23-26)\n*Alapin Variation, 2. c3 (B22)\n*Grand Prix Attack, 2. f4 (B21)\n*Smith-Morra Gambit, 2. d4 (B21) The noteworthy openings in C20 are: *Wing Gambit (2. b4)\n*Gloria Variation (2. c4)\n*Steinitz Variation (2. g3)\n*Keres Variation (2. Ne2) For a list of all other ECO Codes, see List of chess openings."
+    }
+  ]
+}

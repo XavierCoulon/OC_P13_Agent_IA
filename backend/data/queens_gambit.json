@@ -1,0 +1,33 @@
+{
+  "opening_name": "Queen's Gambit",
+  "chunks": [
+    {
+      "index": 0,
+      "text": "The Queen's Gambit is a common opening in chess where white sacrifices a pawn for quick development. Although it may at first appear to be short, it has many variations."
+    },
+    {
+      "index": 1,
+      "text": "By playing c4, white \"sacrifices\" their pawn. However, if the gambit is accepted, white can gobble control of the center and hope to win, even a pawn down, with that control. However, it is not a true gambit, as the pawn can always be taken (black defending it would result in poor development)."
+    },
+    {
+      "index": 2,
+      "text": "The Queen's Gambit is one of the oldest known chess openings, as Lucena described it in 1497 and it is mentioned in the earlier Göttingen Manuscript. During the early period of modern chess, queen pawn openings were not in fashion, and the Queen's Gambit did not become common until the 1873 tournament in Vienna."
+    },
+    {
+      "index": 3,
+      "text": "As Wilhelm Steinitz and Siegbert Tarrasch developed chess theory and increased the appreciation of positional play, the Queen's Gambit grew more popular, reaching its zenith in the 1920s and 1930s, and was played in all but two of 34 games in the 1927 World Chess Championship match between Jose Capablanca and Alexander Alekhine. After World War II, it was less frequently seen, as many Black players moved away from symmetrical openings, tending to use the Indian Defense to combat queen pawn openings."
+    },
+    {
+      "index": 4,
+      "text": "The Queen's Gambit is still frequently played and it remains an important part of many grandmasters' opening repertoires. With 2.c4, White threatens to exchange a wing pawn (the c-pawn) for a center pawn (Black's d-pawn) and dominate the center with e2-e4. This is not a true gambit, as Black cannot hold the pawn, e.g., the following line: 1.d4 d5 2.c4 dxc4 3.e3 b5? (Black tries to guard his pawn but should pursue development with 3...e5!) 4.a4 c6? 5.axb5 cxb5?? 6.Qf3! winning a piece."
+    },
+    {
+      "index": 5,
+      "text": "The Queen's Gambit is divided into two major categories based on Black's response: The Queen's Gambit Accepted (QGA) and the Queen's Gambit Declined (QGD). In the QGA, Black plays 2...dxc4, temporarily giving up the center to obtain freer development. In the QGD, Black usually plays to hold d5. Frequently Black will be cramped, but Black aims to exchange pieces and use the pawn breaks at c5 and e5 to free his game."
+    },
+    {
+      "index": 6,
+      "text": "After 1.d4 d5 2.c4:\n* 2...e6 ( Queen's Gambit Declined ) (QGD) - main line, with many variations.\n* 2...dxc4 ( Queen's Gambit Accepted ) (QGA) - widely used.\n*2...Nc6 ( Chigorin Defense ) - takes the game away from the normal positional channels of the QGD, and has been favored by Alexander Morozevich at top level; it appears to be playable for Black.\n*2...c5 ( Symmetrical Defense ) - also known as the Austran Defense - very rarely played. Although it has not been definitely refuted, play seems to favor White.\n*2...c6 ( Slav Defense ) - solid response, although many variations are very tactica"
+    }
+  ]
+}

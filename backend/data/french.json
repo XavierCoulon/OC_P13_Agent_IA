@@ -1,0 +1,105 @@
+{
+  "opening_name": "French Defense",
+  "chunks": [
+    {
+      "index": 0,
+      "text": "The French Defense starts 1. e4, e6. It is played often with aggressive play on the Queenside for Black and Kingside for White, each having castled on the opposite side, and can form into either an open or a closed game depending on whether the Advance variation or the Exchange variation is played."
+    },
+    {
+      "index": 1,
+      "text": "Sometimes white prefers to open up the center with 3. exd5, which leads into the Exchange Variation. Most people choose the Exchange Variation because white sees that the French Defense has complex theory in it. Most people think that the Exchange Variation is drawish and boring, but it can be also interesting."
+    },
+    {
+      "index": 2,
+      "text": "The most common move for white, simply developing the knight. ==== 4. ...Nf6====\nBlack also can develop the knight. =====5. Bd3, Bd6. 6. O-O, O-O. 7. Bg5, Bg4. 8. Nbd2, Nbd7. 9. c3, c6. 10. Qc2, Qc7. 11. Rfe1, Rfe8.=====\nAs you can see, the position is symmetrical. White pressures the h7 pawn, while black pressures the h2 pawn. Important plan is to exchange bad bishop on g4 with good bishop on d3 by playing Bh5 then Bg6. But better to not play h7-h6, else the pawn strucutre will be damaged."
+    },
+    {
+      "index": 3,
+      "text": "=====5. Bd3, Bd6. 6. Qe2+, Qe7. 7. Qxe7+, Bxe7.=====\nThis is what grandmasters play nowadays. As you can see, black when offered queen's trade, white accepted it. =====8. Bf4=====\nWhite develops the bishop, attacking the c7 pawn. ===== 8. ...c6 =====\nSo black pushes it out of attack. As you can see, black has some problems: white's pieces are more active, white can play c4, attacking the d5 pawn and in general white has a comfortable game. ====4. Nc6====\nBlack can also choose the move Nc6, making the d5 pawn harder to support with move c6. Black wants to castle queenside in this position."
+    },
+    {
+      "index": 4,
+      "text": "=====5. Bb5.=====\nWhite pins the knight. ====== 5. ...Bd6.======\nBlack ignores the fact that knight is pinned. ======6. c4. ======\nWhite attacks the e5 pawn now. ======6. ...dxc4. 7. d5.======\nWhite now attacks the pinned knight. If black wont capture the pawn, but will develop the knight then: 6. ...Nc6. 7. d6, Be7. White now can capture the knight and then play Ne5, so this is problematic for black. ======7. ...a6.======\nSo we counterattack the bishop. ======8. Ba4, b5. 9. dxc6, bxa4.======\nThe black structure is now a mess."
+    },
+    {
+      "index": 5,
+      "text": "====4. ...Bg4====\nThis move is playable, but it will be problematic for black. =====5. h3, Bh5. 6. Bd3, Bd6. 7. Qe2+, Qe7. 8. Be3.=====\nWhite simply develops the bishop. As you can see, white's pieces are more active than black's pieces, black is also struggling with the kingside. So the Bg4 is not recommended here. ====4. ...Bd6. ====\nBlack simply develops the bishop. =====5. ...Ne7.=====\nNo, not Nf6, not the symmetrical position. Black can develop the knight like that. ======6. O-O, O-O. 7. Re1 ====== =====5. ...Bg4. =====\nBlack can also pin the knight. ====== 6. 0-0, Nc6. 7. c3, Nge7.======"
+    },
+    {
+      "index": 6,
+      "text": "White simply develops the bishop. ==== 4. ...Nc6. ====\nBlack attacks the undefended pawn, developing the knight. =====5. c3=====\nSo white protects the pawn with the pawn. =====5. ...Bd6.=====\nBlack simply develops the bishop. Now white has two options. ======6. ...Bg4. 7. O-O, Nge7. 8. Re1, Qd7. 9. Nbd2, O-O-O.======\nAs you can see black is a bit ahead of development, rooks are connected while white's bishop and queen is not developed yet. ======10. b4, Ng3. 11. b5, Nce7.======\nThe position is equal (engines are dumb don't ask them)"
+    },
+    {
+      "index": 7,
+      "text": "=====6. Ne2 =====\nUnlike Nf3, black can't pin the knight with move Bg4, white will simply play f3, blocking the pin. This move also prepares the move Bf4. ======6. ...Qh4.======\nBlack develops the queen all the way to the h4 square, not letting the king to castle kingside. 7. ...0-0??, Qxh2#. Also Qh4 protects the f4 square. 7. g3?! weakens the light squares on the kingside, so black can put the light-square bishop to the g4 or h3. ======6. ...Qf6.======\nAnother option for black, simply developing the queen and some other pieces. =====6. Qf3.=====\nWhite can simply develop the queen."
+    },
+    {
+      "index": 8,
+      "text": "======6. ...Be6.======\nBlack defends the pawn. Black in this position simply develops pieces, castles queenside and connects the rooks. ====4. ...c5====\nBlack can simply challenge the d4 pawn. ===== 5. ...dxc5, Bxc5. 6. Nf3, Nf6. 7. 0-0, 0-0=.=====\nThis position is simply equal, both sides develops some pieces, activates rooks and etc. =====5. ...c3 =====\nThis move is playable, but it removes the natural development of the g1 knight. Secondly, white can play c4, gaining a tempo on the bishop."
+    },
+    {
+      "index": 9,
+      "text": "This move challenges the d4 pawn. ==== 4. ...Nf6. 5. Nc3.====\nSimple development. White has two options: Be7 or Bb4. =====5. ...Be7. 6. Nf3, 0-0. 7. Be2 or Be3, dxc4. 8. Bxc4, c6. 9. 0-0.===== ======9. ...Nd2.======\nBlack now plans to play Nb3 then Nd4, pawns aren't able to protect that square so, it also will attack the bishop on e3. ======9. ...Bg4. 10. Be3, Nd2.======\nBlack now plans to play Nb3 then Nd4, pawns aren't able to protect that square so, it also will attack the bishop on e3."
+    },
+    {
+      "index": 10,
+      "text": "The c5 move is forced, because alternatives are weak. c5 move attacks the d4 pawn. After 4. Nf3!? (Nimzowitsch System), cxd4. 5. Nxd4, Nc6, white is in trouble. 6. f4, Qb6, 7. c3, Bc5. Capturing the pawn is also bad: 4. dxc3? 4. Nc6. (4. ...Bxc3!?, Qg4!) 5. Nf3, Bxc3. 6. Bd3, f6. 7. Qd2, fxe5. 8. Nxe5, Nxe5. 9. Qxe5, Nf6, 10. Bb5+ (there is a trap after 10. ...Bxf2+, Kxf2??. 11. Ng4+!), Kf7⩱ (10. ...Bd7? is bad for black because of 11. Qxe6+!). Even tho black lost his castling rights, the black is still winning. White can also try 4. Qg4 (Nimzowitsch Attack), it's ok but I don't recommend that"
+    },
+    {
+      "index": 11,
+      "text": "This is the only move for black again, developing the knight and adding more pressure to the d4 pawn. Black should not exchange pawns, because after 4. ...cxd4?!. 5. cxd4. White is slightly better. 5. ...Nc6. 6. Nf3, Qb6. 7. Nc3, Bd7. 8. Be2⩲ and both sides ready to castle."
+    },
+    {
+      "index": 12,
+      "text": "This is the main line. You can also enter the main line by playing: 4. ...Qb6. 5. Nf3, Nc6. The main line is the most playable line in the advance variation, adding more pressure to the d4 pawn. ====6. a3.====\nThis move is still main line. Point of this move is to play b4 and give decision to black what to do with the pawn, and after that white has space advantage."
+    },
+    {
+      "index": 13,
+      "text": "====6. ...c4.====\nYet this is still main line, not letting the c3 pawn to push. Remember principle: where pawn structure looks, attack there. Black pawn strucutre looks to the queenside, so black will attack on the queenside, while white, looking to the kingside, will attack on the kingside. This move is also seems slow, closing the center."
+    },
+    {
+      "index": 14,
+      "text": "=====7. Nbd2, Na5. 8. Be2 (8. Rb1?!, Bd7. 9. b4, cxb3. 10. c4, Ne7. 11. Bb2, Ba4), Bd7. 9. O-O, Ne7. 10. Rb1, Qc7 (10. ...Nb3? 11. Bxc4!, dxc4??. 12. Nxc4 (after queen retreats, Nd6+ then Nxf7+, forking king and a rook)). 11. Re1, Nc8. 12. Nf1, Nb6. 13. Bf4, h6. 14. h4, O-O. 15. Qd2, Be7∞.=====\nAs you can see, position is interesting and unclear. White has good attacking chances, black has good attacking chances, in general it's interesting fight."
+    },
+    {
+      "index": 15,
+      "text": "====6. ...Nh6 (Lputian Variaiton).====\nBlack wants to put the knight to the f5 square, as usually. In this position white should not capture the knight, else the rook will be under attack too (you can't trap the queen.) =====7. b4, cxd4. 8. cxd4, Nf5. 9. Bb2, Bd7. 10. g4, Ne7. 11. Nc3, Na5. 12. Qc2 (you can't capture the knight because it's pinned to the bishop.), Nc4. 13. Bxc4, dxc4. 14. Nd2=.=====\nIn this position, the position is equal, but black is need to be accurate with defense so he won't lose. ====6. ...Bd7.====\nBlack wants to develop queenside in this position."
+    },
+    {
+      "index": 16,
+      "text": "=====7. b4, cxd4. 8. cxd4, Rc8. 8. Bb2, Na5. 9. Nd2, Nc4. 10. Nxc4, dxc4. 11. Rc1, Qa6. 12. d5.=====\nAs you can see, the kingside is not even developed yet, while white has a dangerous attack, and that might be a problem for black. ====6. ...a5.====\nBlack prevents white to play b4, but in other hand, b5 is now a weakness for black. =====7. Bd3, Bd7. 8. Bc2.=====\nWhite can also castle, sacrificing the pawn: 8. O-O, cxd4. 9, cxd4, Nxd4. 10. Nxd4, Qxd4. White is clearly slightly better in this position, because after: 11. Nc3 black can't defend the b5 square, that's why it's weakness"
+    },
+    {
+      "index": 17,
+      "text": "=====8. ...Nh6. 9. O-O, cxd4. 10. cxd4, Nf5.===== =====11. Bxf5, exf5. 12. Nc3⩲=====\nAs you can see, white is slightly better, because of the queen's black isolated pawn, that can be attacked easily. And trying to protect it with bishop: big pawn in the bishop's way."
+    },
+    {
+      "index": 18,
+      "text": "White can try 6. Be2, Nh6 (6. ...Nge7?!. 7. dxc5, Qxc5. 8. Nbd2 with the idea of playing Nb3 then Bd3 to gain more tempo on the queen.) 7. Bxh6, gxh6 (7. ...Qxb2?. 8. Be3, Qxa1. 9. Qc2, cxd4. 10. Nxd4 and the queen is trapped.) 8. Qd2, Bg7. 9. O-O, O-O. 10. Na3, cxd4. 11. cxd4, Bd7. 12. Nc2, f6. And in this position, black's main target is d4 pawn. ====7. cxd4, Nge7. 8. Nc3, Nf5. 9. Na4, Qa5+ 10. Bd2, Bb4. 11. Bc3, b5. 12. a3, Bxc3+. 13. Nxc3, b4. 14. axb4, Qxb4. 15. Bb5, Bd7=.====\nAs you can see, the main weakness in this position is b2 and d4 pawns, which are mostly targetted by black."
+    },
+    {
+      "index": 19,
+      "text": "This is the very well known trap, after 6. ...cxd4. 7. cxd4, Nxd4?. 8. Nxd4, Qxd4??. 9. Bb5+! and you win the queen with the discovered check. Don't play Bd7 immediately because after 6. ...Bd7?!. 7. dxc5, Bxc5. 8. O-O⩲ And white has the plan of playing b4, Be3, Nd2 then Nb3 and white is already better in this position."
+    },
+    {
+      "index": 20,
+      "text": "6. ...cxd4. 7. cxd4, Bd7 (preventing the plan of discovery check). 8. Bc2, Nb4 (8. O-O, Nxd4. 8. Nxd4, Qxd4. 9. Nc3 and black has to be careful about move Nb5, a6. 10. Qe2, Ne7. 11. Kh1, Nc6. 12. f4, Nb4. 13. Rd1, Nxd3. 14. Rxd3, Qb6. 15. Be3, Bc5. 16. Bxe3, Qxe3. 17. f5⩱) 9. O-O, Nxc2. 10. Qxc2, Rc8. 11. Nc3, Ne7. 12. Be3, Nf5=."
+    },
+    {
+      "index": 21,
+      "text": "This move simply develops the bishop. ====6. Be2.====\nWhite simply develops the bishop too. ====6. ...Nge7.====\nf6 is playable too, but after 7. O-O, fxe5. 8. Nxe5, Nxe5. 9. dxe5. White has the extra pawn, ready to play f4 f5 to attack the e6 pawn. So f6 is not recommended. ====7. Na3, cxd4. 8. cxd4, Nc5. 9. Nc2, Qb6. 10. O-O, Be7.====\nAs you can see, black's target is the d4 pawn, which can be captured in any moment. ====11. g4, Nh4, 12. Nxh4, Bxh4. 13. f4∞====\nAnd the position is unclear."
+    },
+    {
+      "index": 22,
+      "text": "#e4 e6\n#d4 d5\n#Nc3 Bb4\nA pretty wild variant where common opening principles are often neglected. Black adds pressure to e4 by pinning the defending knight. Most often these minor pieces will be exchanged and white's queenside will be weakened in return for space and quite some potential of attacking on the kingside."
+    },
+    {
+      "index": 23,
+      "text": "The French Defence was created as early as 1497, but was named in 1834 when Paris beat London in a match. 1 e4 e6 \n2 d4 d5 \n3 Nc3 Nf6 \n4 Bg5 Be7 \n5 e5 Nfd7 \n6 Bxe7 Qxe7 \n7 Qd2 0-0 \n8 f4 c5 \n9 Nf3 Nc6 \n10 dxc5 Nxc5 \n11 0-0-0 a6 \n12 Bd3 b5 \n13 Ne2 Be7 \n14 Nfd4 Nxd4 \n15 Nxd4 Rac8"
+    },
+    {
+      "index": 24,
+      "text": "White starts out with e4, controlling the center. Wanting to avoid a pawn exchange, black moves his king's pawn to e6. White gains more control of the center with d4. Black sees a weakness in this position and moves to d5, attacking white's undefended king pawn. White defends with Nc3, not only defending his pawn but also attacking black's queen pawn. After black's Nf6, white moves his bishop to g5 to pin the knight to the queen. Black defends with Be7, not only getting rid of the pin but also enabling castling. White moves his pawn up to attack the knight. Black retreats, attacking both the p"
+    }
+  ]
+}
