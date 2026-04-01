@@ -30,15 +30,20 @@ make up
 
 # 3. Vérifier que l'API répond
 make health
+
+# 4. Ingérer les données WikiChess dans Milvus
+make ingest
 ```
 
 ## Commandes disponibles
 
 ```
 make up       Démarrer tous les services (build inclus)
+make stop     Arrêter les conteneurs (sans les supprimer)
 make down     Arrêter et supprimer les conteneurs
 make logs     Suivre les logs de l'API
 make health   Vérifier le healthcheck de l'API
+make ingest   Ingérer les données WikiChess dans Milvus (ARGS=--reset pour réingérer)
 make dev      Lancer l'API en mode développement local (hot reload)
 ```
 
@@ -49,6 +54,7 @@ make dev      Lancer l'API en mode développement local (hot reload)
 | `GET /api/v1/healthcheck` | Santé de l'API |
 | `GET /api/v1/moves/{fen}` | Coups théoriques (base masters Lichess) |
 | `GET /api/v1/evaluate/{fen}` | Évaluation Stockfish (centipawns + meilleur coup) |
+| `GET /api/v1/vector-search` | Recherche sémantique dans la base WikiChess (RAG) |
 | `GET /docs` | Swagger UI |
 
 > Le paramètre `{fen}` accepte les slashes (`{fen:path}`) — encodage URL non obligatoire.
@@ -66,10 +72,12 @@ make dev      Lancer l'API en mode développement local (hot reload)
 ```
 .
 ├── backend/
-│   └── app/
-│       ├── api/v1/       # Routers FastAPI
-│       ├── models/       # Modèles Pydantic
-│       └── services/     # Lichess, Stockfish
+│   ├── app/
+│   │   ├── api/v1/       # Routers FastAPI
+│   │   ├── models/       # Modèles Pydantic
+│   │   └── services/     # Lichess, Stockfish, Milvus
+│   ├── data/             # Articles WikiChess (JSON)
+│   └── scripts/          # fetch_data.py, ingest.py
 ├── frontend/             # Angular (à venir)
 ├── docker-compose.yml
 ├── Makefile

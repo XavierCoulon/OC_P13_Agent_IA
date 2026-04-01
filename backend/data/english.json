@@ -1,0 +1,37 @@
+{
+  "opening_name": "English Opening",
+  "chunks": [
+    {
+      "index": 0,
+      "text": "In chess, the English Opening is the opening where White plays\n:1. c4\nA flank opening, it is the fourth most popular opening. White begins the fight for the center by staking a claim to the d5 square. Although many lines of the English have a distinct character, it often transposes into other openings and is considered flexible."
+    },
+    {
+      "index": 1,
+      "text": "The English derives its name from the English (unofficial) world champion, Howard Staunton, who played it during his 1843 match with Saint-Amant and London 1851, the first international tournament. It did not inspire Staunton's contemporaries, and only caught on in the twentieth century. It is now recognized as a solid opening that may be used to reach both classical and hypermodern positions. Botvinnik, Karpov, and Kasparov all employed it during their world championship matches. Bobby Fischer created a stir when he switched to it from the King's Pawn against Boris Spassky in 1972."
+    },
+    {
+      "index": 2,
+      "text": "If White plays an early d4, the game will usually transpose into either the Queen's Gambit or an Indian defence.\nFor example, after 1.c4 Nf6 2.Nc3 g6 3.d4 d5 the game has transposed into the Grünfeld Defence, usually reached by the move order 1.d4 Nf6 2.c4 g6 3.Nc3 d5. Note, however, that White can also play 1.c4 Nf6 2.Nc3 g6 3.e4 making it impossible for Black to reach a Grünfeld, and instead more or less forcing him to defend a King's Indian Defence with 3...d6. Black also cannot force a Grünfeld with 1.c4 Nf6 2.Nc3 d5, since White can deviate with 3.cxd5 Nxd5 4.g3."
+    },
+    {
+      "index": 3,
+      "text": "Instead of playing an early d4, White can also play Nf3 and fianchetto the king's bishop (g3 and Bg2), transposing into a Reti Opening. Also, after 1.c4 c6, white can transpose into the Polish Opening, Outflank Variation, by playing 2.b4!?, which can be used as a surprise weapon if Black does not know very much about the Polish Opening."
+    },
+    {
+      "index": 4,
+      "text": "The many different transpositional possibilities available to White make the English a slippery opening for Black to defend against, and make it advisable for him to consider carefully what move order to employ. For instance, if Black would like to play a Queen's Gambit Declined, the most accurate move order to do so is 1...e6 2.d4 d5. (Of course, White can again play the Reti instead with 2.Nf3 d5 3.b3.) If Black plays instead 1...Nf6 2.Nc3 e6, White can avoid the QGD by playing 3.e4 instead."
+    },
+    {
+      "index": 5,
+      "text": "Common responses include: Bruce Leverett, writing the English chapter in MCO14, stated, \"It is natural to treat the English as a Sicilian reversed, but the results are often surprising--main lines in the Sicilian Defense correspond to obscure side variations in the English, and vice versa.\" \n:1...e6 (Can lead to a Queen's Gambit Declined after 2.Nc3 d5 3.d4, but White usually prefers 2.Nf3 or 2.g3) \n:1...c5 (the Symmetrical Variation) including attempts to try the Hedgehog system \n:1...g6 leads to a kind of Modern Defense or after d6 and Nf6 to a kind of King's Indian Defence. \n:1...c6 (Can le"
+    },
+    {
+      "index": 6,
+      "text": "The Encyclopaedia of Chess Openings has classified the English Opening under the codes A10 through A39:\n*A10 1.c4\n*A11 1.c4 c6 (Caro-Kann Defence)\n*A12 1.c4 c6 2.Nf3 d5 3.b3\n*A13 1.c4 e6\n*A14 1.c4 e6 2.Nf3 d5 3.g3 Nf6 4.Bg2 Be7 5.0-0\n*A15 1.c4 Nf6\n*A16 1.c4 Nf6 2.Nc3\n*A17 1.c4 Nf6 2.Nc3 e6\n*A18 1.c4 Nf6 2.Nc3 e6 3.e4 (Mikenas-Carls Variation)\n*A19 1.c4 Nf6 2.Nc3 e6 3.e4 c5\n*A20 1.c4 e5\n*A21 1.c4 e5 2.Nc3\n*A22 1.c4 e5 2.Nc3 Nf6\n*A23 1.c4 e5 2.Nc3 Nf6 3.g3 c6 (Bremen System, Keres Variation)\n*A24 1.c4 e5 2.Nc3 Nf6 3.g3 g6 (Bremen System with ...g6)\n*A25 1.c4 e5 2.Nc3 Nc6\n*A26 1.c4 e5 2.Nc3 Nc6 3"
+    },
+    {
+      "index": 7,
+      "text": "Category:Chess openings\nCategory:1843 in chess cs:Anglická hra\nde:Englische Eröffnung\nes:Apertura inglesa\nfr:Partie anglaise\nit:Partita inglese\nhe:פתיחה אנגלית\nlt:Angliškasis debiutas\nnl:Engels (schaakopening)\nno:Engelsk (sjakkåpning)\npl:Partia angielska\npt:Abertura Inglesa\nru:Английское начало\nfi:Englantilainen avaus\nsv:Engelsk öppning\nuk:Англійський початок\nCategory:English Opening"
+    }
+  ]
+}

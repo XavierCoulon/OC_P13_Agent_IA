@@ -1,0 +1,33 @@
+{
+  "opening_name": "Italian Game",
+  "chunks": [
+    {
+      "index": 0,
+      "text": "The Italian Game is a well-analysed chess opening arising from the Main Line of the King's Knight Opening. It is characterised by the moves: It comprises ECO codes C50-C59."
+    },
+    {
+      "index": 1,
+      "text": "Also quite popular is 3... Nf6. Despite the name, it is very aggressive. The two main options are 3. Ng4 (ECO C57-59), 3. d4 (ECO C56), and 3. d3 (ECO C55, along with irregular responses)."
+    },
+    {
+      "index": 2,
+      "text": "The most popular response is for black to respond symetrically with 3... Bc5. The main line is 4. c3 (ECO C53-54), but also popular is the Evans Gambit with 4. b4 (ECO C51-52) and the Giuoco Pianissimo with 4. d3 (ECO C50). C50 also contains irregular responses to the Giuoco Piano."
+    },
+    {
+      "index": 3,
+      "text": "3... Be7. A solid but drawish defense, it avoids the complexities of the Giuoco Piano whilst being quieter than the Two Knight's Defense. White should respond by taking the centre with 4. d4; black can either take with exd4, with 5. Nxd4 transposing to the scotch game, or defend with d6, and 5. Nc3 gives white better development."
+    },
+    {
+      "index": 4,
+      "text": "3... d6. Also known as Paris Defense, it is likewise quite drawish. The main line is 4. c3, but 4. h3 is also possible. 4. d4 Be7 transposes to the Hungarian."
+    },
+    {
+      "index": 5,
+      "text": "3... Nd4. Also Kostić Gambit. The idea is to trap white by seemingly blundering the e-pawn. Black's ideal line is: 4. Nxe5 Qg5 \n5. Nxf7 Qxg2 \n6. Rf1 Qxe4+ \n7. Be2 Nf3# However, white can instead play 5. Bxf7+, and after Kd8, 6. O-O Qxe5 the game is roughly equal, as white has two pawns and an attacking position in return for a knight."
+    },
+    {
+      "index": 6,
+      "text": "But best for white is to either decline the gambit with Nxd4, or ignore it completely with O-O. Both options leave white with a superior setup. Grahan Burgess jokingly writes that the gambit only works if black shows visible remorse immediately after 3... Nd4, as though only just realising they \"blundered\" the pawn."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "opening_name": "Caro-Kann Defense",
+  "chunks": [
+    {
+      "index": 0,
+      "text": "The Caro-Kann Defense is a common chess opening characterized by the moves: The usual continuation (position shown) is followed by 3.Nc3, 3.Nd2, 3.exd5, or 3.e5 (the Advance Variation, in which Black often plays Bf5 to stifle White's Bishop activity). The Caro-Kann, like the Sicilian Defence and French Defence, is classified as a \"semi-open game\", but it is thought to be more solid and less dynamic than either of those openings. It often leads to good endgames for black, who has the better pawn-structure."
+    },
+    {
+      "index": 1,
+      "text": "The Caro-Kann is a well-respected, solid chess opening, and it is hard for white to prove a concrete advantage. The opening is named after the German players Horatio Caro and Marcus Kann who analyzed the opening in 1886."
+    },
+    {
+      "index": 2,
+      "text": "The most common way of handling the Caro-Kann, the Classical Variation, follows with\n:3.Nc3 (or 3.Nd2) dxe4\n: 4.Nxe4 Bf5\n:5.Ng3 Bg6\nThis was long considered to represent best play for both sides in the Caro-Kann. White usually continues\n:6.h4 h6\n:7.Nf3 Nd7\n:8.h5 Bh7\n:9.Bd3 Bxd3\n:10.Qxd3\nAlthough White's pawn on h5 looks ready to attack, it can prove to be a real weakness in an endgame (Schiller, 8)"
+    },
+    {
+      "index": 3,
+      "text": "Much of the Caro-Kann's reputation as a solid defence stems from this variation being so hard to crack. Black makes very few compromises in his pawn structure, and plays a timely c5 to contest the d4 square. Black has the options of castling queen-side, castling king-side, and even leaving his king in the center. Should things proceed to an endgame, Black often stands well thanks to his solid pawn structure and king-side pawn majority."
+    },
+    {
+      "index": 4,
+      "text": "Another solid positional line, this variation follows with the moves \n: 3.Nc3 dxe4\n: 4.Nxe4 Nd7\nNamed after the first world champion Wilhelm Steinitz, and sometimes called the Smyslov Variation after the seventh world champion Vasily Smyslov, in modern play it has been identified with former World Champion Anatoly Karpov, who has used it dozens of times in top-level play. Play is similar to the Classical Variation except that Black has more freedom by delaying the development of his bishop, and is not forced to play it to the g6 square. However this freedom comes at a cost as White also enjoys"
+    },
+    {
+      "index": 5,
+      "text": "An unusual continuation that follows \n:3.Nc3 dxe4\n: 4.Nxe4 Nf6!?\n:5.Nxf6 gxf6 (5...exf6 is possible but no longer in favor)\nleading to a very unclear position. Black has voluntarily opted for an inferior kingside pawn structure and a practical necessity of castling queenside, but also has some compensation in the form of the open g-file for the rook and unusually active play for the Caro-Kann. It is generally considered somewhat unsound, but former top-10 player Bent Larsen employed it with some success during the 1970s."
+    },
+    {
+      "index": 6,
+      "text": "This variation that follows with \n: 3.e5 Bf5\nhas gained popularity after having previously been widely regarded as inferior for many years since it gives black a position like the French Defence, but without the bad light-squared bishop. It has since been revitalized by aggressive lines like the Bayonet Attack (4.Nc3 e6 5.g4) or the less ambitious variation popularized by English Grandmaster Nigel Short and American Grandmaster Gata Kamsky (4.Nf3 e6 5.Be2 c5 6.Be3) and regularly appears in top-level play."
+    },
+    {
+      "index": 7,
+      "text": "Black's 3. . .c5!? is a fairly important alternative; in comparison to the French defense Black lacks the tempo normally spent on . . .e6, but on the other hand, White can only exploit this by weakening his own central bind by playing 4. dxc5, when Black has good chances of regaining the pawn.\n The move Nf3 is fairly common after this. After 4. Nf3 e6 as white, I recommend the move h4 and you can get initiative on the kingside."
+    },
+    {
+      "index": 8,
+      "text": "The Exchange Variation follows\n: 3.exd5 cxd5. The Panov-Botvinnik Attack begins after White's 4.c4. This system often leads to typical isolated queen's pawn (\"IQP\") positions, with White obtaining rapid development, a grip on e5, and kingside attacking chances to compensate for the long-term structural weakness of the isolated d4 pawn itself."
+    },
+    {
+      "index": 9,
+      "text": "The \"true\" Exchange Variation begins with 4.Bd3, e.g. 4. . .Nc6 5.c3 Nf6 6.Bf4 Bg4 7.Qb3. White isn't thought to possess much of an advantage at the highest levels. However, this line is useful at club level, as White's game is comfortable and easy to play."
+    },
+    {
+      "index": 10,
+      "text": "Two Knights Variation: 1.e4 c6 2.Nf3 d5 3.Nc3, as played by Bobby Fischer in his youth. Fantasy or Tartakower Variation: 1.e4 c6 2.d4 d5 3.f3, which somewhat resembles the Blackmar-Diemer Gambit. 3...e6 is probably the most solid response. Gurgenidze Variation: 1.e4 c6 2.d4 d5 3.Nc3 g6--it is because of this variation that some players believe 3.Nd2 is more accurate (White can then play c3 at some point), though 3...g6 is also playable after that move."
+    },
+    {
+      "index": 11,
+      "text": "Note that the Caro-Kann or lines similar to it can sometimes be reached by transposition of moves from the English Opening, after 1.c4 c6 2.e4 d5. Here is a recent brilliancy illustrating White's attacking chances when the players castle on opposite sides in the Classical Variation:"
+    },
+    {
+      "index": 12,
+      "text": "Lev Milman-Joseph Fang Foxwoods Open, 2005 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4 h6 7.Nf3 Nd7 8.h5 Bh7 9.Bd3 Bxd3 10.Qxd3 e6 (10...Qc7 avoids White's next) 11.Bf4 Bb4+ 12.c3 Be7 13.0-0-0 Ngf6 14.Kb1 0-0 15.Ne5 c5?! (15...Qa5 is usual and better) 16.Qf3 Qb6? (necessary was 16...cxd4 17.Rxd4 Nex5 18.Bxe5 Qc8 19.Rhd1 Rd8 20.Ne4 with a small White advantage) 17.Nxd7 Nxd7 18.d5 exd5 19.Nf5! Bf6 20.Rxd5 Qe6 21.Bxh6 (21...gxh6 22.Rd6 Qe8 23.Rxf6 Nxf6 24.Qg3+ mates on g7) Ne5 22.Qe4 Nc6 23.Qf3 Ne5? (23...gxh6 24.Rd6 Qe5 25.Nxh6+ Kg7 26.Nf5+ Kh7 with an unclear position) 24.Qe4 Nc6 25.Qg"
+    }
+  ]
+}

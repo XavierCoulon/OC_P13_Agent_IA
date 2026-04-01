@@ -1,4 +1,4 @@
-.PHONY: up down stop logs health dev help
+.PHONY: up down stop logs health dev ingest help
 
 help: ## Afficher l'aide
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-15s\033[0m %s\n", $$1, $$2}'
@@ -20,3 +20,6 @@ health: ## Vérifier le healthcheck de l'API
 
 dev: ## Lancer l'API en mode développement local (hot reload)
 	cd backend && uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+ingest: ## Ingérer les données WikiChess dans Milvus (stack Docker running). Utiliser ARGS=--reset pour réingérer
+	cd backend && MILVUS_HOST=localhost MILVUS_PORT=19530 uv run python scripts/ingest.py $(ARGS)
