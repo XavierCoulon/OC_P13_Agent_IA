@@ -55,6 +55,7 @@ make dev      Lancer l'API en mode développement local (hot reload)
 | `GET /api/v1/moves/{fen}` | Coups théoriques (base masters Lichess) |
 | `GET /api/v1/evaluate/{fen}` | Évaluation Stockfish (centipawns + meilleur coup) |
 | `GET /api/v1/vector-search` | Recherche sémantique dans la base WikiChess (RAG) |
+| `GET /api/v1/videos/{opening}` | Vidéos YouTube pour une ouverture (watchUrl + embedUrl) |
 | `GET /docs` | Swagger UI |
 
 > Le paramètre `{fen}` accepte les slashes (`{fen:path}`) — encodage URL non obligatoire.
@@ -64,8 +65,18 @@ make dev      Lancer l'API en mode développement local (hot reload)
 | Variable | Description |
 |---|---|
 | `LICHESS_API_TOKEN` | Token Lichess (créer sur lichess.org/account/oauth/token, aucun scope requis) |
-| `YOUTUBE_API_KEY` | Clé API YouTube (étape suivante) |
+| `YOUTUBE_API_KEY` | Clé API YouTube Data v3 (console.cloud.google.com — quota : 100 recherches/jour) |
 | `OPENAI_API_KEY` | Clé API LLM (étape suivante) |
+
+## Base de connaissances (RAG)
+
+Les données proviennent de **[WikiChess](https://chess.fandom.com)** (Fandom), sous licence CC-BY-SA.
+
+**Pipeline d'intégration :**
+1. `scripts/fetch_data.py` — scrape les articles via l'API MediaWiki de Fandom et génère les fichiers `data/*.json` (découpage en chunks de ~300-500 caractères par section)
+2. `scripts/ingest.py` — encode les chunks avec le modèle `all-MiniLM-L6-v2` (384 dimensions) et indexe les vecteurs dans Milvus (collection `chess_openings`, index IVF_FLAT, similarité cosine)
+
+**Ouvertures indexées :** Sicilienne, Espagnole (Ruy Lopez), Italienne, Française, Caro-Kann, Dame (Queen's Gambit), Anglaise, Hollandaise.
 
 ## Structure
 
@@ -75,7 +86,7 @@ make dev      Lancer l'API en mode développement local (hot reload)
 │   ├── app/
 │   │   ├── api/v1/       # Routers FastAPI
 │   │   ├── models/       # Modèles Pydantic
-│   │   └── services/     # Lichess, Stockfish, Milvus
+│   │   └── services/     # Lichess, Stockfish, Milvus, YouTube
 │   ├── data/             # Articles WikiChess (JSON)
 │   └── scripts/          # fetch_data.py, ingest.py
 ├── frontend/             # Angular (à venir)
