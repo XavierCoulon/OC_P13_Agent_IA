@@ -56,9 +56,21 @@ make dev      Lancer l'API en mode développement local (hot reload)
 | `GET /api/v1/evaluate/{fen}` | Évaluation Stockfish (centipawns + meilleur coup) |
 | `GET /api/v1/vector-search` | Recherche sémantique dans la base WikiChess (RAG) |
 | `GET /api/v1/videos/{opening}` | Vidéos YouTube pour une ouverture (watchUrl + embedUrl) |
+| `POST /api/v1/agent` | Orchestration complète : Lichess + Stockfish + Milvus + YouTube |
 | `GET /docs` | Swagger UI |
 
 > Le paramètre `{fen}` accepte les slashes (`{fen:path}`) — encodage URL non obligatoire.
+
+### Endpoint agent
+
+```bash
+POST /api/v1/agent
+Content-Type: application/json
+
+{ "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1" }
+```
+
+Retourne une réponse unifiée : ouverture détectée, coups théoriques, évaluation Stockfish, extraits WikiChess et vidéos YouTube.
 
 ## Variables d'environnement
 
@@ -86,7 +98,7 @@ Les données proviennent de **[WikiChess](https://chess.fandom.com)** (Fandom), 
 │   ├── app/
 │   │   ├── api/v1/       # Routers FastAPI
 │   │   ├── models/       # Modèles Pydantic
-│   │   └── services/     # Lichess, Stockfish, Milvus, YouTube
+│   │   └── services/     # Lichess, Stockfish, Milvus, YouTube, Agent (LangGraph)
 │   ├── data/             # Articles WikiChess (JSON)
 │   └── scripts/          # fetch_data.py, ingest.py
 ├── frontend/             # Angular (à venir)

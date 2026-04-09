@@ -48,3 +48,17 @@ class VideoResult(BaseModel):
 class VideosResponse(BaseModel):
     opening: str
     videos: list[VideoResult]
+
+
+class AgentRequest(BaseModel):
+    fen: str
+
+
+class AgentResponse(BaseModel):
+    fen: str
+    opening_name: str | None
+    is_theoretical: bool
+    moves: list[TheoreticalMove]
+    evaluation: EvaluationResponse | None
+    rag_context: list[VectorSearchResult]
+    videos: list[VideoResult]
