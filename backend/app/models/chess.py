@@ -32,3 +32,19 @@ class VectorSearchResult(BaseModel):
 class VectorSearchResponse(BaseModel):
     query: str
     results: list[VectorSearchResult]
+
+
+class VideoResult(BaseModel):
+    videoId: str
+    title: str
+    description: str
+    channelTitle: str
+    publishedAt: str    # ISO 8601
+    thumbnailUrl: str   # thumbnails.high > medium > default
+    watchUrl: str       # https://youtube.com/watch?v={videoId}
+    embedUrl: str       # https://www.youtube.com/embed/{videoId}
+
+
+class VideosResponse(BaseModel):
+    opening: str
+    videos: list[VideoResult]
