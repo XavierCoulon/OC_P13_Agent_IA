@@ -1,0 +1,12 @@
+<div class="board-wrapper">
+  <ngx-chess-board
+    #board
+    [size]="480"
+    [showCoords]="true"
+    [showLegalMoves]="true"
+    (moveChange)="onMoveChange()"
+  ></ngx-chess-board>
+  <div class="board-actions">
+    <button class="btn btn-secondary" (click)="reset()">Nouvelle partie</button>
+  </div>
+</div>

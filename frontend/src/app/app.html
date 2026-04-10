@@ -1,0 +1,29 @@
+<div class="app-container">
+  <header class="app-header">
+    <h1>♟ Chess Agent FFE</h1>
+    <p>Analysez votre position avec l'agent IA</p>
+  </header>
+
+  <main class="main-layout">
+    <section class="board-section">
+      <app-chessboard (positionChange)="onPositionChange($event)" />
+      <div class="analyze-actions">
+        <button
+          class="btn btn-primary"
+          (click)="analyze()"
+          [disabled]="loading()"
+        >
+          {{ loading() ? 'Analyse…' : 'Analyser la position' }}
+        </button>
+      </div>
+    </section>
+
+    <section class="panel-section">
+      <app-agent-panel
+        [response]="response()"
+        [loading]="loading()"
+        [error]="error()"
+      />
+    </section>
+  </main>
+</div>

@@ -1,0 +1,98 @@
+@if (loading) {
+  <div class="loading">
+    <div class="spinner"></div>
+    <p>Analyse en cours…</p>
+  </div>
+}
+
+@if (error) {
+  <div class="error-card">
+    <p>⚠ {{ error }}</p>
+  </div>
+}
+
+@if (!loading && !error && !response) {
+  <div class="empty-state">
+    <p>Jouez un coup puis cliquez sur <strong>Analyser la position</strong> pour obtenir les recommandations de l'agent.</p>
+  </div>
+}
+
+@if (response) {
+  <div class="section opening-header">
+    <span class="opening-badge" [class.theoretical]="response.is_theoretical">
+      {{ response.opening_name || 'Position hors théorie' }}
+    </span>
+    @if (response.is_theoretical) {
+      <span class="badge-label">Ouverture théorique</span>
+    }
+  </div>
+
+  @if (response.evaluation) {
+    <div class="section">
+      <h3>Évaluation Stockfish</h3>
+      <div class="eval-row">
+        <span class="eval-score" [class.positive]="(response.evaluation.score_cp ?? 0) >= 0">
+          {{ formatScore(response.evaluation.score_cp, response.evaluation.mate_in) }}
+        </span>
+        <span class="best-move">
+          Meilleur coup : <strong>{{ response.evaluation.best_move_san }}</strong>
+        </span>
+      </div>
+    </div>
+  }
+
+  @if (response.moves.length > 0) {
+    <div class="section">
+      <h3>Coups théoriques</h3>
+      <table class="moves-table">
+        <thead>
+          <tr>
+            <th>Coup</th>
+            <th>Blancs</th>
+            <th>Nuls</th>
+            <th>Noirs</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (move of response.moves.slice(0, 5); track move.uci) {
+            <tr>
+              <td><strong>{{ move.san }}</strong></td>
+              <td>{{ winPercent(move.white, move.draws, move.black) }}%</td>
+              <td>{{ drawPercent(move.white, move.draws, move.black) }}%</td>
+              <td>{{ blackPercent(move.white, move.draws, move.black) }}%</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  }
+
+  @if (response.rag_context.length > 0) {
+    <div class="section">
+      <h3>Contexte WikiChess</h3>
+      @for (chunk of response.rag_context.slice(0, 2); track chunk.chunk_index) {
+        <div class="rag-card">
+          <div class="rag-source">{{ chunk.opening_name }}</div>
+          <p class="rag-text">{{ chunk.chunk_text }}</p>
+        </div>
+      }
+    </div>
+  }
+
+  @if (response.videos.length > 0) {
+    <div class="section">
+      <h3>Vidéos explicatives</h3>
+      <div class="videos-list">
+        @for (video of response.videos; track video.videoId) {
+          <a class="video-card" [href]="video.watchUrl" target="_blank" rel="noopener noreferrer">
+            <img [src]="video.thumbnailUrl" [alt]="video.title" />
+            <div class="video-info">
+              <p class="video-title">{{ video.title }}</p>
+              <p class="video-channel">{{ video.channelTitle }}</p>
+            </div>
+          </a>
+        }
+      </div>
+    </div>
+  }
+}
