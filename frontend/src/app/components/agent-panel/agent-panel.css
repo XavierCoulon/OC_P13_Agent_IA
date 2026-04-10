@@ -1,0 +1,209 @@
+.section {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #769656;
+  margin: 0 0 12px;
+  letter-spacing: 0.6px;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 20px;
+  color: #888;
+}
+
+.spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid #eee;
+  border-top-color: #769656;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.empty-state {
+  padding: 48px 20px;
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.error-card {
+  padding: 14px 16px;
+  background: #fff3f3;
+  border: 1px solid #f5c6c6;
+  border-radius: 6px;
+  color: #c0392b;
+  font-size: 14px;
+}
+
+.opening-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.opening-badge {
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  background: #f0f0f0;
+  color: #555;
+}
+
+.opening-badge.theoretical {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge-label {
+  font-size: 12px;
+  color: #999;
+}
+
+.eval-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.eval-score {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c0392b;
+}
+
+.eval-score.positive {
+  color: #2e7d32;
+}
+
+.best-move {
+  font-size: 14px;
+  color: #555;
+}
+
+.moves-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.moves-table th {
+  text-align: left;
+  padding: 6px 8px;
+  background: #f8f8f8;
+  border-bottom: 2px solid #eee;
+  color: #999;
+  font-weight: 600;
+}
+
+.moves-table td {
+  padding: 7px 8px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.moves-table tr:last-child td {
+  border-bottom: none;
+}
+
+.moves-table tr:hover td {
+  background: #fafafa;
+}
+
+.rag-card {
+  padding: 12px;
+  background: #f9f9f9;
+  border-left: 3px solid #769656;
+  border-radius: 0 4px 4px 0;
+  margin-bottom: 8px;
+}
+
+.rag-source {
+  font-size: 11px;
+  color: #769656;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 6px;
+}
+
+.rag-text {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.videos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.video-card {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  transition: background 0.15s;
+}
+
+.video-card:hover {
+  background: #f7f7f7;
+}
+
+.video-card img {
+  width: 96px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  background: #e0e0e0;
+}
+
+.video-info {
+  flex: 1;
+  overflow: hidden;
+}
+
+.video-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #222;
+  margin: 0 0 3px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.video-channel {
+  font-size: 11px;
+  color: #999;
+  margin: 0;
+}
