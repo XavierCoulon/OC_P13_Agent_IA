@@ -8,32 +8,11 @@ services:
       - "${API_PORT:-8000}:8000"
     env_file: .env
     environment:
-      MONGO_URI: mongodb://mongodb:27017
       MILVUS_HOST: milvus
       MILVUS_PORT: 19530
     depends_on:
-      mongodb:
-        condition: service_healthy
       milvus:
         condition: service_healthy
-    networks:
-      - chess-net
-    restart: unless-stopped
-
-  # ── MongoDB ────────────────────────────────────────────────────────────────
-  mongodb:
-    image: mongo:7
-    container_name: chess-mongodb
-    command: ["mongod", "--quiet"]
-    ports:
-      - "${MONGO_PORT:-27017}:27017"
-    volumes:
-      - mongo_data:/data/db
-    healthcheck:
-      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
     networks:
       - chess-net
     restart: unless-stopped
@@ -119,7 +98,6 @@ networks:
     driver: bridge
 
 volumes:
-  mongo_data:
   milvus_data:
   etcd_data:
   minio_data:

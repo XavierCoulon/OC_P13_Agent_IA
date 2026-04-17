@@ -9,7 +9,6 @@ POC d'un agent IA pour l'apprentissage des ouvertures aux échecs, développé p
 | Backend / Agent | FastAPI + LangGraph |
 | Frontend | Angular + ngx-chessboard |
 | Vector DB | Milvus |
-| Document DB | MongoDB |
 | Moteur d'analyse | Stockfish |
 | Déploiement | Docker Compose |
 
@@ -78,7 +77,6 @@ Retourne une réponse unifiée : ouverture détectée, coups théoriques, évalu
 |---|---|
 | `LICHESS_API_TOKEN` | Token Lichess (créer sur lichess.org/account/oauth/token, aucun scope requis) |
 | `YOUTUBE_API_KEY` | Clé API YouTube Data v3 (console.cloud.google.com — quota : 100 recherches/jour) |
-| `OPENAI_API_KEY` | Clé API LLM (étape suivante) |
 
 ## Base de connaissances (RAG)
 
