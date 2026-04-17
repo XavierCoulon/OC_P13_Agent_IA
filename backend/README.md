@@ -49,7 +49,6 @@ Copier `.env.example` → `.env` et renseigner :
 |---|---|
 | `LICHESS_API_TOKEN` | Token Lichess (lichess.org/account/oauth/token, aucun scope requis) |
 | `YOUTUBE_API_KEY` | Clé API YouTube Data v3 (100 recherches/jour en quota gratuit) |
-| `OPENAI_API_KEY` | Réservé (non utilisé actuellement) |
 | `MILVUS_HOST` | Hôte Milvus (`milvus` en Docker, `localhost` en local) |
 | `MILVUS_PORT` | Port Milvus (défaut : 19530) |
 
